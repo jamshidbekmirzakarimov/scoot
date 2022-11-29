@@ -59,6 +59,7 @@ body {
   font-family: "Space Mono", "Courier New", monospace;
   font-weight: 700;
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 img {
@@ -372,9 +373,21 @@ a {
 
 .arrow-right {
   position: absolute;
-  width: 740px;
+  width: 940px;
   height: 150px;
   right: -120px;
+  top: 300px;
+}
+
+.arrow-left{
+  position: absolute;
+  left: -200px;
+}
+
+.police-arrow{
+  position: absolute;
+  right: -120px;
+  top: 100px;
 }
 
 /* **** user section end **** */
