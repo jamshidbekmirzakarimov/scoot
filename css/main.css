@@ -396,6 +396,7 @@ a {
 .signup-section {
   background-image: url(../images/sign-section-bg.jpg);
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .signup-section-wrapper {
@@ -404,6 +405,7 @@ a {
   justify-content: space-between;
   padding-top: 102px;
   padding-bottom: 102px;
+
 }
 
 .signup-section-title {
@@ -418,7 +420,7 @@ a {
 
 .signup-section-end {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .signup-section-market-img {
@@ -429,12 +431,12 @@ a {
 
 /* **** site footer start **** */
 .site-footer {
-  padding-top: 35px;
-  padding-bottom: 35px;
   background-color: var(--footer-bg-color);
 }
 
 .site-footer-wrapper {
+  padding-top: 35px;
+  padding-bottom: 35px;
   display: flex;
   align-items: center;
   justify-content: space-between;
