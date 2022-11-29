@@ -338,8 +338,7 @@ a {
   /* align-items: flex-end; */
   align-items: center;
 }
-.user-section-item-start {
-}
+
 .user-section-item-start-title {
   width: 445px;
   font-size: 48px;
@@ -405,8 +404,9 @@ a {
   justify-content: space-between;
   padding-top: 102px;
   padding-bottom: 102px;
-
 }
+
+
 
 .signup-section-title {
   width: 415px;
