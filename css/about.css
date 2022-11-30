@@ -243,6 +243,10 @@ details {
   margin-bottom: 16px;
 }
 
+details[open] summary .summary-chevron-up{
+  transform: rotate(-180deg);
+}
+
 summary {
   list-style: none;
   /* padding: $details-padding; */
