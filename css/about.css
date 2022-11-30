@@ -221,7 +221,7 @@
   margin-bottom: 423px;
 }
 
-.faqs-section-title-driving{
+.faqs-section-title-driving {
   font-size: 40px;
   line-height: 48px;
   letter-spacing: -1.78571px;
@@ -237,11 +237,12 @@ details {
   position: relative;
   margin-left: auto;
   margin-bottom: 16px;
+  display: flex;
+  align-items: center;
 }
 
-details[open] summary .summary-chevron-up{
+details[open] summary .summary-chevron-up {
   transform: rotate(-180deg);
-  /* transition: all 0.5s linear; */
 }
 
 summary {
@@ -255,35 +256,14 @@ summary {
   align-items: center;
 }
 
-&:focus {
-  outline: none;
-}
-
-&:hover .summary-chevron-up svg {
-  color: var(--main-btn-color);
-}
-
-.summary-chevron-up svg {
-  color: var(--main-btn-color);
-  margin-right: auto;
-}
-
-.summary-chevron-up,
-.summary-chevron-down {
+.summary-chevron-up {
   pointer-events: none;
   position: absolute;
   right: 120px;
+  transition: all 0.2s linear;
+  color: var(--main-btn-color);
 }
 
-svg {
-  display: block;
-  cursor: pointer;
-}
-
-summary::-webkit-details-marker {
-  display: none;
-  cursor: pointer;
-}
 .summary-title {
   font-size: 24px;
   line-height: 28px;
@@ -294,9 +274,12 @@ summary::-webkit-details-marker {
 }
 
 .summary-content {
-  cursor: default;
-  font-weight: 300;
-  line-height: 1.5;
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: #495567;
   padding-bottom: 32px;
   padding-left: 40px;
   padding-right: 32px;

@@ -1,0 +1,20 @@
+:root {
+  --header-bg-color: #fff;
+  --main-bg-color: #fff;
+  --main-text-color: #495567;
+  --subtitle-text-color: #939caa;
+  --main-btn-color: #fcb72b;
+  --footer-bg-color: #333a44;
+}
+
+/* ****** MAP SECTION START ***** */
+.map-section{
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+
+.iframe{
+  border: none;
+  border-radius: 10px;
+}
+/* ****** MAP SECTION END ***** */
