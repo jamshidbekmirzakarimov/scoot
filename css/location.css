@@ -8,13 +8,61 @@
 }
 
 /* ****** MAP SECTION START ***** */
-.map-section{
+.map-section {
   padding-top: 50px;
   padding-bottom: 120px;
 }
 
-.iframe{
+.iframe {
   border: none;
   border-radius: 10px;
 }
 /* ****** MAP SECTION END ***** */
+
+/* ***** listed section start ****** */
+.listed-section {
+  padding-bottom: 120px;
+}
+
+.listed-section-wrapper {
+  display: flex;
+  align-items: center;
+}
+.listed-section-title {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--main-text-color);
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 30px;
+  width: 331px;
+}
+.listed-section-subtitle {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--subtitle-text-color);
+  width: 445px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 105px;
+}
+.listed-section-messeg {
+  text-decoration: none;
+  padding: 14px 44px;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--header-bg-color);
+  background-color: var(--main-btn-color);
+  border: 3px transparent;
+}
+.listed-section-messeg:active{
+  background-color: transparent;
+  border: 3px solid var(--main-btn-color);
+  color: var(--main-btn-color);
+}
+/* ***** listed section end ****** */
